@@ -11,16 +11,17 @@
 #
 
 # Uncomment a feed source
-sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+#sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add feed sources
-sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
-sed -i '$a src-git diy https://github.com/CCnut/feed-netkeeper.git;LUCI-LUA-UCITRACK' feeds.conf.default
+echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+echo 'src-git upx https://github.com/kuoruan/openwrt-upx.git' >>feeds.conf.default
 
-# Add luci-theme-argon
-git clone --depth=1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon
-rm -rf ../lean/luci-theme-argon
+# Replace feed sources
+#sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+#sed -i '$a src-git diy https://github.com/CCnut/feed-netkeeper.git;LUCI-LUA-UCITRACK' feeds.conf.default
 
 # Svn checkout packages from immortalwrt's repository
-git clone --depth=1 https://github.com/immortalwrt/packages -b openwrt-18.06 packages
-git clone --depth=1 https://github.com/immortalwrt/luci -b openwrt-18.06 luci
+#git clone --depth=1 https://github.com/immortalwrt/packages -b openwrt-18.06 packages
+#git clone --depth=1 https://github.com/immortalwrt/luci -b openwrt-18.06 luci
