@@ -1,5 +1,5 @@
 <a href="#readme">
-    <img src="https://avatars.githubusercontent.com/u/31687149?v=4" alt="图裂了😂" title="OpenWrt-DIY" align="right" height="180" />
+    <img src="https://avatars.githubusercontent.com/u/2528830?s=200&v=4" alt="图裂了😂" title="OpenWrt-DIY" align="right" height="180" />
 </a>
 
 [![](https://img.shields.io/github/last-commit/coolsnowwolf/lede/master?color=FFFFFF&label=%E6%BA%90%E7%A0%81%E6%9B%B4%E6%96%B0)](https://github.com/coolsnowwolf/lede) [![](https://img.shields.io/github/release-date/lazzman/OpenWrt-DIY?color=FFFFFF&label=%E5%9B%BA%E4%BB%B6%E6%9B%B4%E6%96%B0)](https://github.com/lazzman/OpenWrt-DIY/actions) 
