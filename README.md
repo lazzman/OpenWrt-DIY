@@ -63,3 +63,10 @@ OpenWrt DIY — 多设备固件云编译
     <img src="https://img.shields.io/badge/-返回顶部-FFFFFF.svg" alt="图裂了😂" title="返回顶部" align="right"/>
 </a>
 
+
+## 固件升级
+
+1. 进入系统-备份/升级菜单。
+2. 在"刷写新的固件"中点击"选择文件"，选择"openwrt-x86-64-generic-squashfs-combined-efi.img"文件，注意如果当前系统使用的是非efi固件，则选择非efi的固件。
+3. 点击"刷写固件"，页面跳转到确认页面，确认即可。
+
