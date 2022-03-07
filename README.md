@@ -57,7 +57,7 @@ OpenWrt DIY — 多设备固件云编译
 
 2. `每周五查询LEDE源码是否有更新`，如有更新自动拉取最新源码和第三方软件包项目自动编译（根据设备不同编译时间在1~5个小时），`固件包含必要驱动及常用插件`，未逐一经过实机测试，故 `不保证 100% 可靠性`；
 
-3. 默认固件账号`root`密码`password`，IP地址`192.168.1.2`
+3. 本固件功能极简，追求稳定。默认固件账号`root`密码`password`，IP地址`192.168.1.2`。
 
 <a href="#readme">
     <img src="https://img.shields.io/badge/-返回顶部-FFFFFF.svg" alt="图裂了😂" title="返回顶部" align="right"/>
