@@ -4,7 +4,7 @@
 
 [![](https://img.shields.io/github/last-commit/coolsnowwolf/lede/master?color=FFFFFF&label=%E6%BA%90%E7%A0%81%E6%9B%B4%E6%96%B0)](https://github.com/coolsnowwolf/lede) [![](https://img.shields.io/github/release-date/lazzman/OpenWrt-DIY?color=FFFFFF&label=%E5%9B%BA%E4%BB%B6%E6%9B%B4%E6%96%B0)](https://github.com/lazzman/OpenWrt-DIY/actions) 
 <br/>
-[![](https://img.shields.io/badge/-主要功能:-696969.svg)](https://github.com/lazzman/OpenWrt-DIY/wiki/OpenWrt-DIY%E6%8F%92%E4%BB%B6%E9%A2%84%E8%A7%88) ![](https://img.shields.io/badge/-PassWall-FFFFFF.svg) ![](https://img.shields.io/badge/-广告屏蔽大师_Plus+-FFFFFF.svg) ![](https://img.shields.io/badge/-UPnP-FFFFFF.svg) ![](https://img.shields.io/badge/-Turbo ACC 网络加速-FFFFFF.svg) 
+[![](https://img.shields.io/badge/-主要功能:-696969.svg)](https://github.com/lazzman/OpenWrt-DIY/wiki/OpenWrt-DIY%E6%8F%92%E4%BB%B6%E9%A2%84%E8%A7%88) ![](https://img.shields.io/badge/-PassWall-FFFFFF.svg) ![](https://img.shields.io/badge/-广告屏蔽大师_Plus+-FFFFFF.svg) ![](https://img.shields.io/badge/-UPnP-FFFFFF.svg) ![](https://img.shields.io/badge/-Turbo_ACC_网络加速-FFFFFF.svg) ![](https://img.shields.io/badge/-UU_加速加速器-FFFFFF.svg) ![](https://img.shields.io/badge/-动态DNS-FFFFFF.svg) 
 
 
 OpenWrt DIY — 多设备固件云编译
@@ -57,7 +57,11 @@ OpenWrt DIY — 多设备固件云编译
 
 2. `每周五查询LEDE源码是否有更新`，如有更新自动拉取最新源码和第三方软件包项目自动编译（根据设备不同编译时间在1~5个小时），`固件包含必要驱动及常用插件`，未逐一经过实机测试，故 `不保证 100% 可靠性`；
 
-3. 本固件功能极简，追求稳定。默认固件账号`root`密码`password`，IP地址`192.168.1.2`。
+3. 本固件功能极简，追求稳定。如需额外功能请在`系统-软件包`中自行安装。
+
+4. 默认固件账号`root`密码`password`，IP地址`192.168.1.2`。
+
+
 
 <a href="#readme">
     <img src="https://img.shields.io/badge/-返回顶部-FFFFFF.svg" alt="图裂了😂" title="返回顶部" align="right"/>
